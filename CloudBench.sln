@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7154947A-3F57-4018-87DF-1BE512810596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudBench.Shared.Abstractions", "src\CloudBench.Shared.Abstractions\CloudBench.Shared.Abstractions.csproj", "{59802BFE-9278-4F62-9B56-C17B7DA1366D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudBench.Shared", "src\CloudBench.Shared\CloudBench.Shared.csproj", "{9CF600CB-1CCF-4DB2-B8E8-0335460834C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudBench.Application", "src\CloudBench.Application\CloudBench.Application.csproj", "{8118271B-77DC-426B-B064-2CE5DBA280D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudBench.Domain", "src\CloudBench.Domain\CloudBench.Domain.csproj", "{24A0DB7C-909C-47F3-A980-73229BECB1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudBench.Infrastructure", "src\CloudBench.Infrastructure\CloudBench.Infrastructure.csproj", "{7AF98728-6402-4097-B2C7-AE82F76B02C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudBench.Api", "src\CloudBench.Api\CloudBench.Api.csproj", "{DEA480D3-0AC6-462B-8141-A4B4BC201494}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59802BFE-9278-4F62-9B56-C17B7DA1366D} = {7154947A-3F57-4018-87DF-1BE512810596}
+		{9CF600CB-1CCF-4DB2-B8E8-0335460834C7} = {7154947A-3F57-4018-87DF-1BE512810596}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59802BFE-9278-4F62-9B56-C17B7DA1366D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59802BFE-9278-4F62-9B56-C17B7DA1366D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59802BFE-9278-4F62-9B56-C17B7DA1366D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59802BFE-9278-4F62-9B56-C17B7DA1366D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF600CB-1CCF-4DB2-B8E8-0335460834C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF600CB-1CCF-4DB2-B8E8-0335460834C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF600CB-1CCF-4DB2-B8E8-0335460834C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF600CB-1CCF-4DB2-B8E8-0335460834C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8118271B-77DC-426B-B064-2CE5DBA280D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8118271B-77DC-426B-B064-2CE5DBA280D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8118271B-77DC-426B-B064-2CE5DBA280D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8118271B-77DC-426B-B064-2CE5DBA280D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A0DB7C-909C-47F3-A980-73229BECB1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A0DB7C-909C-47F3-A980-73229BECB1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A0DB7C-909C-47F3-A980-73229BECB1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A0DB7C-909C-47F3-A980-73229BECB1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF98728-6402-4097-B2C7-AE82F76B02C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF98728-6402-4097-B2C7-AE82F76B02C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF98728-6402-4097-B2C7-AE82F76B02C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF98728-6402-4097-B2C7-AE82F76B02C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA480D3-0AC6-462B-8141-A4B4BC201494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA480D3-0AC6-462B-8141-A4B4BC201494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA480D3-0AC6-462B-8141-A4B4BC201494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA480D3-0AC6-462B-8141-A4B4BC201494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
